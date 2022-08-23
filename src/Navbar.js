@@ -10,6 +10,7 @@ const ResponsiveAppBar = () => {
   return (
     <AppBar position="fixed">
       <Container
+        maxWidth="xl"
         sx={{ display: "flex", alignItems: "center", padding: "3px 0px" }}
       >
         <Box sx={{ flexGrow: 0 }}>
@@ -23,13 +24,12 @@ const ResponsiveAppBar = () => {
         </Box>
         <Typography
           variant="h6"
-          noWrap
           component="a"
           href=""
           sx={{
             mr: 2,
-            fontSize: "10px",
-            display: { xs: "flex", md: "none" },
+            fontSize: "16px",
+            display: { xs: "flex" },
             flexGrow: 1,
             fontWeight: 600,
             fontFamily: "monospace",
@@ -41,13 +41,12 @@ const ResponsiveAppBar = () => {
         </Typography>
         <Typography
           variant="h6"
-          noWrap
           component="a"
           href=""
           sx={{
-            fontSize: "14px",
+            fontSize: "22px",
             mr: 2,
-            display: { xs: "flex", md: "none" },
+            display: { xs: "flex" },
             flexGrow: 1,
             fontWeight: 500,
             fontFamily: "monospace",

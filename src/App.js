@@ -115,7 +115,7 @@ function App() {
       <div
         style={{
           width: "95%",
-          margin: "40px auto",
+          margin: "100px auto",
           display: "flex",
           justifyContent: "space-between",
         }}
@@ -243,7 +243,9 @@ function App() {
         <div style={{ width: "60%" }}>
           {Results[0].BP && (
             <>
-              <h3 style={{ textAlign: "center" }}>Classification Results</h3>
+              <h3 style={{ textAlign: "center", margin: "0px 0px 10px" }}>
+                Classification Results
+              </h3>
               <TableContainer component={Paper} sx={{ marginTop: "0px" }}>
                 <Table size="small" aria-label="a dense table">
                   <TableHead sx={{ backgroundColor: "black", color: "white" }}>
