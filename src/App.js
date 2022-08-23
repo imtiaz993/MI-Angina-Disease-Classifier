@@ -28,8 +28,8 @@ function App() {
   const [weights, setWeights] = React.useState({ W1: -0.3, W2: 1 });
   const [totalEpochs, setTotalEpoch] = React.useState(2);
 
-  var yt;
-  var dt;
+  var yt = 0;
+  var dt = 0;
 
   const TrainModel = () => {
     console.log("Classification Started");
@@ -80,11 +80,10 @@ function App() {
             };
             tempResults.push(temp);
           }
-
           tempWeights.W1 =
             tempWeights.W1 + LearningRate * (dt - yt) * Data[i].BP;
           tempWeights.W2 =
-            tempWeights.W2 + LearningRate * (dt - yt) * Data[i].WB;
+            Number(tempWeights.W2) + LearningRate * (dt - yt) * Data[i].WB;
           let temp = {
             backgroundColor: "red",
             w1: tempWeights.W1,
