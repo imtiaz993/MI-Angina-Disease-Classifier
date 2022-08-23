@@ -15,7 +15,7 @@ const ResponsiveAppBar = () => {
         <Box sx={{ flexGrow: 0 }}>
           <IconButton sx={{ p: 0, marginRight: "5px" }}>
             <Avatar
-              sx={{ width: "25px", height: "25px" }}
+              sx={{ width: "50px", height: "50px" }}
               alt="Remy Sharp"
               src="/T09U7J9UH-U02LC9VJBD2-b865ec93e2f8-512.png"
             />
