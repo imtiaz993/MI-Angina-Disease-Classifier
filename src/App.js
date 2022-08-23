@@ -243,7 +243,7 @@ function App() {
         <div style={{ width: "60%" }}>
           {Results[0].BP && (
             <>
-              <h3 style={{ textAlign: "center" }}>Classification Details</h3>
+              <h3 style={{ textAlign: "center" }}>Classification Results</h3>
               <TableContainer component={Paper} sx={{ marginTop: "0px" }}>
                 <Table size="small" aria-label="a dense table">
                   <TableHead sx={{ backgroundColor: "black", color: "white" }}>
