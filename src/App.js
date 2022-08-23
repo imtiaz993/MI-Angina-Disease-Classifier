@@ -81,7 +81,7 @@ function App() {
             tempResults.push(temp);
           }
           tempWeights.W1 =
-            tempWeights.W1 + LearningRate * (dt - yt) * Data[i].BP;
+            Number(tempWeights.W1) + LearningRate * (dt - yt) * Data[i].BP;
           tempWeights.W2 =
             Number(tempWeights.W2) + LearningRate * (dt - yt) * Data[i].WB;
           let temp = {
