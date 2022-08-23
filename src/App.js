@@ -132,7 +132,7 @@ function App() {
               id="standard-basic"
               label="Epochs"
               variant="standard"
-              sx={{ marginRight: "15px", fontSize: "12" }}
+              sx={{ marginRight: "15px" }}
               value={totalEpochs}
               onChange={(e) => {
                 setTotalEpoch(e.target.value);
@@ -184,7 +184,6 @@ function App() {
               width: "100%",
               marginBottom: "15px",
               padding: "2px",
-              fontSize: "12px",
             }}
             onClick={TrainModel}
           >
@@ -213,7 +212,6 @@ function App() {
                   >
                     <TableCell
                       sx={{
-                        fontSize: "10px",
                         padding: "2px",
                       }}
                       align="center"
@@ -222,7 +220,6 @@ function App() {
                     </TableCell>
                     <TableCell
                       sx={{
-                        fontSize: "10px",
                         padding: "2px",
                       }}
                       align="center"
@@ -231,7 +228,6 @@ function App() {
                     </TableCell>
                     <TableCell
                       sx={{
-                        fontSize: "10px",
                         padding: "2px",
                       }}
                       align="center"
@@ -286,7 +282,6 @@ function App() {
                           <TableCell
                             sx={{
                               backgroundColor: item.backgroundColor,
-                              fontSize: "10px",
                               padding: "2px",
                             }}
                             align="center"
@@ -296,7 +291,6 @@ function App() {
                           <TableCell
                             sx={{
                               backgroundColor: item.backgroundColor,
-                              fontSize: "10px",
                               padding: "2px",
                             }}
                             align="center"
@@ -306,7 +300,6 @@ function App() {
                           <TableCell
                             sx={{
                               backgroundColor: item.backgroundColor,
-                              fontSize: "10px",
                               padding: "2px",
                             }}
                             align="center"
@@ -316,7 +309,6 @@ function App() {
                           <TableCell
                             sx={{
                               backgroundColor: item.backgroundColor,
-                              fontSize: "10px",
                               padding: "2px",
                             }}
                             align="center"
@@ -326,7 +318,6 @@ function App() {
                           <TableCell
                             sx={{
                               backgroundColor: item.backgroundColor,
-                              fontSize: "10px",
                               padding: "2px",
                             }}
                             align="center"
@@ -336,7 +327,6 @@ function App() {
                           <TableCell
                             sx={{
                               backgroundColor: item.backgroundColor,
-                              fontSize: "10px",
                               padding: "2px",
                             }}
                             align="center"
@@ -356,7 +346,6 @@ function App() {
                           <TableCell
                             sx={{
                               backgroundColor: item.backgroundColor,
-                              fontSize: "10px",
                               padding: "2px",
                             }}
                             align="center"
@@ -366,7 +355,6 @@ function App() {
                           <TableCell
                             sx={{
                               backgroundColor: item.backgroundColor,
-                              fontSize: "10px",
                               padding: "2px",
                             }}
                           >
@@ -375,21 +363,18 @@ function App() {
                           <TableCell
                             sx={{
                               backgroundColor: item.backgroundColor,
-                              fontSize: "10px",
                               padding: "2px",
                             }}
                           ></TableCell>
                           <TableCell
                             sx={{
                               backgroundColor: item.backgroundColor,
-                              fontSize: "10px",
                               padding: "2px",
                             }}
                           ></TableCell>
                           <TableCell
                             sx={{
                               backgroundColor: item.backgroundColor,
-                              fontSize: "10px",
                               padding: "2px",
                             }}
                             align="center"
@@ -399,7 +384,6 @@ function App() {
                           <TableCell
                             sx={{
                               backgroundColor: item.backgroundColor,
-                              fontSize: "10px",
                               padding: "2px",
                             }}
                             align="center"

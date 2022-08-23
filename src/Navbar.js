@@ -10,7 +10,6 @@ const ResponsiveAppBar = () => {
   return (
     <AppBar position="fixed">
       <Container
-        maxWidth="xl"
         sx={{ display: "flex", alignItems: "center", padding: "3px 0px" }}
       >
         <Box sx={{ flexGrow: 0 }}>
