@@ -82,9 +82,9 @@ function App() {
           }
 
           tempWeights.W1 =
-            tempWeights.W1 + LearningRate * (dt - yt) * Data[i].BP.toFixed(2);
+            tempWeights.W1 + LearningRate * (dt - yt) * Data[i].BP;
           tempWeights.W2 =
-            tempWeights.W2 + LearningRate * (dt - yt) * Data[i].WB.toFixed(2);
+            tempWeights.W2 + LearningRate * (dt - yt) * Data[i].WB;
           let temp = {
             backgroundColor: "red",
             w1: tempWeights.W1,
